@@ -1,0 +1,57 @@
+.grid
+{
+    width:200px;
+    height:400px;
+    display:flex;
+    flex-wrap:wrap;
+    background-color: whitesmoke;
+}
+
+    button {
+margin:30px;
+    }
+
+  #sc {
+margin-left: 30px;
+color:cornflowerblue;
+  }
+
+.grid div
+{
+    height:18px;
+    width:18px;
+    border:1px solid gainsboro;
+   
+    vertical-align: center;
+}
+
+.grid .taken  {
+    border: 1px solid white;
+}
+
+.tetromino {
+    background-color: '';
+    border: 1px solid;
+    border-color:'gainsboro';
+}
+
+.tetris {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 90px;
+}
+
+#t {
+    color: lavender;
+}
+ #e {
+     color: plum;
+ }
+ #r {
+     color: aquamarine;
+ }
+ #i {
+     color: thistle
+ }
+ #s{
+     color: pink;
+ }
